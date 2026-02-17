@@ -64,7 +64,7 @@ header{
 
 .logo{
     font-weight:700;
-    font-size:2.5rem;
+    font-size:1.9rem;
     color:var(--white);
     text-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
 }
@@ -477,7 +477,7 @@ nav a.active{
 /* Imagem maior e proporcional */
 .departments.about-cards .card img {
     width: 70%;          /* ocupa toda a largura do card */
-    height: 400px;        /* altura maior */
+    height: 340px;        /* altura maior */
     object-fit: cover;    /* mantém proporção e recorta excesso */
     border-radius: 50px;  /* cantos arredondados */
     margin-bottom: 15px;  /* separação do texto */
@@ -640,13 +640,13 @@ footer{
         width: 95%;
         max-width: 100%;
         border-radius: 20px 20px 0 0;
-        padding: 8px 10px 8px;
+        padding: 10px 10px 10px;
         gap: 1px;
         grid-template-columns: repeat(2, 1fr);
     }
 
     .stat-item h2 {
-        font-size: 1.7rem;
+        font-size: 1.4rem;
     }
 
     .stat-item p {

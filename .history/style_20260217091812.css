@@ -64,7 +64,7 @@ header{
 
 .logo{
     font-weight:700;
-    font-size:2.5rem;
+    font-size:1.9rem;
     color:var(--white);
     text-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
 }
@@ -477,7 +477,7 @@ nav a.active{
 /* Imagem maior e proporcional */
 .departments.about-cards .card img {
     width: 70%;          /* ocupa toda a largura do card */
-    height: 400px;        /* altura maior */
+    height: 380px;        /* altura maior */
     object-fit: cover;    /* mantém proporção e recorta excesso */
     border-radius: 50px;  /* cantos arredondados */
     margin-bottom: 15px;  /* separação do texto */
