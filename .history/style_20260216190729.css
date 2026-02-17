@@ -402,14 +402,6 @@ nav a.active{
     margin:15px auto 0;
 }
 
-.contact-grid{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:60px;
-    align-items:start;
-}
-
-
 /* FOOTER */
 
 footer{
@@ -454,84 +446,51 @@ footer{
         display: block;
     }
 
-        /* HERO INTERNO (about, services, contact) */
-    .hero-about,
-    .hero-services,
-    .hero-contact {
-        min-height: 45vh;
-        display: flex;
-        align-items: center;
+    /* HERO */
+    .hero {
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
         text-align: center;
-        padding: 100px 20px 40px;
+        padding: 20px 20px 0;
+        background:
+            linear-gradient(to top,
+            rgba(47, 93, 124, 0.048),
+            rgba(47, 93, 124, 0.2)),
+            url('img/hero-mobile.webp') center/cover no-repeat;
     }
-
-    .hero-about h1,
-    .hero-services h1,
-    .hero-contact h1 {
-        font-size: 1.6rem;
-    }
-
-    .hero-about p,
-    .hero-services p,
-    .hero-contact p {
-        font-size: 0.95rem;
-        max-width: 100%;
-        margin: 0 auto;
-    }
-
-    /* ABOUT GRID */
-    .about-grid {
-        grid-template-columns: 1fr;
-        gap: 30px;
-        text-align: center;
-    }
-
-    .about-text h2 {
-        font-size: 1.6rem;
-    }
-
-    /* DEPARTMENTS / SERVICES GRID */
-    .dept-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-
-    .card {
-        padding: 25px 20px;
-    }
-
-    /* WHY SECTION */
-    .why-us {
-        padding: 70px 0;
-    }
-
-    .why-card {
-        height: 280px;
-    }
-
-    /* CONTACT PAGE (caso tenha form grid) */
-    .contact-grid {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-
-    .contact-form input,
-    .contact-form textarea {
-        width: 100%;
-    }
-
-
 
     .hero h1 {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
     }
 
     .hero p {
         max-width: 100%;
     }
 
- 
+    .hero-stats {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 95%;
+        max-width: 100%;
+        border-radius: 20px 20px 0 0;
+        padding: 10px 12px 10px;
+        gap: 1px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stat-item h2 {
+        font-size: 1.4rem;
+    }
+
+    .stat-item p {
+        font-size: 0.75rem;
+    }
+
+    /* ABOUT GRID */
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
 
 }
 

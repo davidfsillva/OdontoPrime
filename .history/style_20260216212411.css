@@ -402,14 +402,6 @@ nav a.active{
     margin:15px auto 0;
 }
 
-.contact-grid{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:60px;
-    align-items:start;
-}
-
-
 /* FOOTER */
 
 footer{

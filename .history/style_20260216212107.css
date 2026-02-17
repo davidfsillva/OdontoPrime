@@ -402,14 +402,6 @@ nav a.active{
     margin:15px auto 0;
 }
 
-.contact-grid{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:60px;
-    align-items:start;
-}
-
-
 /* FOOTER */
 
 footer{
@@ -454,77 +446,11 @@ footer{
         display: block;
     }
 
-        /* HERO INTERNO (about, services, contact) */
-    .hero-about,
-    .hero-services,
-    .hero-contact {
-        min-height: 45vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding: 100px 20px 40px;
-    }
-
-    .hero-about h1,
-    .hero-services h1,
-    .hero-contact h1 {
-        font-size: 1.6rem;
-    }
-
-    .hero-about p,
-    .hero-services p,
-    .hero-contact p {
-        font-size: 0.95rem;
-        max-width: 100%;
-        margin: 0 auto;
-    }
-
-    /* ABOUT GRID */
-    .about-grid {
-        grid-template-columns: 1fr;
-        gap: 30px;
-        text-align: center;
-    }
-
-    .about-text h2 {
-        font-size: 1.6rem;
-    }
-
-    /* DEPARTMENTS / SERVICES GRID */
-    .dept-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-
-    .card {
-        padding: 25px 20px;
-    }
-
-    /* WHY SECTION */
-    .why-us {
-        padding: 70px 0;
-    }
-
-    .why-card {
-        height: 280px;
-    }
-
-    /* CONTACT PAGE (caso tenha form grid) */
-    .contact-grid {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-
-    .contact-form input,
-    .contact-form textarea {
-        width: 100%;
-    }
-
+    /* HERO */
 
 
     .hero h1 {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
     }
 
     .hero p {
