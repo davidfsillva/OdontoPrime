@@ -473,7 +473,7 @@ nav a.active{
     width: 60%;          /* ocupa toda a largura do card */
     height: 340px;        /* altura maior */
     object-fit: cover;    /* mantém proporção e recorta excesso */
-    border-radius: 50px;  /* cantos arredondados */
+    border-radius: 60px;  /* cantos arredondados */
     margin-bottom: 15px;  /* separação do texto */
 }
 
