@@ -483,21 +483,9 @@ nav a.active{
     margin-bottom: 15px;  /* separação do texto */
 }
 
-/* SCROLL REVEAL */
 
-.about-preview,
-.departments,
-.why-us,
-.card {
-    opacity: 0;
-    transform: translateY(40px);
-    transition: all 0.8s ease;
-}
 
-.reveal {
-    opacity: 1 !important;
-    transform: translateY(0) !important;
-}
+
 
 
 /* FOOTER */

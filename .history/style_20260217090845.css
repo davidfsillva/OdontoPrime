@@ -29,11 +29,6 @@ body{
     color:var(--text-dark);
 }
 
-h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
-    letter-spacing: 0.5px;
-}
-
 
 .container{
     width:90%;
@@ -483,21 +478,9 @@ nav a.active{
     margin-bottom: 15px;  /* separação do texto */
 }
 
-/* SCROLL REVEAL */
 
-.about-preview,
-.departments,
-.why-us,
-.card {
-    opacity: 0;
-    transform: translateY(40px);
-    transition: all 0.8s ease;
-}
 
-.reveal {
-    opacity: 1 !important;
-    transform: translateY(0) !important;
-}
+
 
 
 /* FOOTER */
